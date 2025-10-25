@@ -1,0 +1,9 @@
+Variable,Coefficient,Non_Zero
+(Intercept),0.8282630082716582,TRUE
+wastewater_current,0.42061938572551205,TRUE
+wastewater_change_2w,0.04326343743467728,TRUE
+wastewater_seasonal,-0.398935230726087,TRUE
+wastewater_cos_seasonal,0.05352491159126205,TRUE
+wastewater_vol_2w,0.29534950492015427,TRUE
+wastewater_vol_3w,-0.15068375920298638,TRUE
+wastewater_vol_4w,0.14805737209341152,TRUE

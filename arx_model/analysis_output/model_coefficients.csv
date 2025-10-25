@@ -1,0 +1,10 @@
+Variable,Coefficient,Non_Zero
+(Intercept),0.42927825506663236,TRUE
+WeeklyRate,0.758797853329909,TRUE
+wastewater_current,0.030802647118139913,TRUE
+wastewater_change_2w,0.17498928801030592,TRUE
+wastewater_seasonal,-0.1799766913602391,TRUE
+wastewater_cos_seasonal,-0.07311459367799694,TRUE
+wastewater_vol_2w,0.5001387481398452,TRUE
+wastewater_vol_3w,-0.37902233077529035,TRUE
+wastewater_vol_4w,0.09206875843436295,TRUE

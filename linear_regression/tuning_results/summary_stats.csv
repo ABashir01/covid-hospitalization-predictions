@@ -1,0 +1,2 @@
+total_models_tested,best_test_r2,best_features,mean_test_r2,median_test_r2
+1023,0.592198040643308,"change_2w, seasonal, cos_seasonal, vol_2w, vol_3w, vol_4w",0.4649190234700684,0.4975307138066277
