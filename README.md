@@ -17,7 +17,7 @@ Here are the models so far:
     - $\sin\left(\frac{2\pi t}{52}\right)$, $\cos\left(\frac{2\pi t}{52}\right)$ = seasonal features (week of year)
     - $\sigma_{2w}$, $\sigma_{3w}$, $\sigma_{4w}$ = volatility measures (standard deviation over 2, 3, and 4 weeks)
 
-<br> Generally, the current wastewater level ($w_t$), the wastewater's seasonality as modelled by sine ($\sin\left(\frac{2\pi t}{52}\right)$), and the two week volatility measure ($\sigma_{2w}$) seem to have the most significant effects on the model besides the current hospitalization rate ($y_{t-2}$).
+<br> Generally, the current wastewater level ($w_t$), the wastewater's seasonality as modelled by sine (${\sin\left(\frac{2\pi t}{52}\right)}$), and the two week volatility measure ($\sigma_{2w}$) seem to have the most significant effects on the model besides the current hospitalization rate ($y_{t-2}$).
 
 We have so far found that combining the wastewater + seasonal features with the autoregressive model to create an ARX model seems to perform the best and offer a significant increase in the predictiveness as measured by $R^2$ when compared to the basic autoregressive or wastewater-only models. More accurate two week predictions here would allow for hospitals to better manage their resources + simply plan more effectively in general.
 
