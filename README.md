@@ -6,9 +6,9 @@ We have tested utilizing pure linear regression models and found that an ARX mod
 
 Here are the models so far:
 
-- Basic Autoregressive Model: $y_t = y_{t-2}$
+- Basic Autoregressive Model: $y_t = \beta_0 + \beta_1 y_{t-2} + \epsilon_t$
 - Wastewater-Only Model: $y_t = \beta_0 + \beta_1 w_t + \beta_2 \Delta w_{t-2} + \beta_3 \sin\left(\frac{2\pi t}{52}\right) + \beta_4 \cos\left(\frac{2\pi t}{52}\right) + \beta_5 \sigma_{2w} + \beta_6 \sigma_{3w} + \beta_7 \sigma_{4w} + \epsilon_t$
-- ARX Model: $y_t = y_{t-2} + \beta_0 + \beta_1 w_t + \beta_2 \Delta w_{t-2} + \beta_3 \sin\left(\frac{2\pi t}{52}\right) + \beta_4 \cos\left(\frac{2\pi t}{52}\right) + \beta_5 \sigma_{2w} + \beta_6 \sigma_{3w} + \beta_7 \sigma_{4w} + \epsilon_t$
+- ARX Model: $y_t = \beta_0 + \beta_1 y_{t-2} + \beta_2 w_t + \beta_3 \Delta w_{t-2} + \beta_4 \sin\left(\frac{2\pi t}{52}\right) + \beta_5 \cos\left(\frac{2\pi t}{52}\right) + \beta_6 \sigma_{2w} + \beta_7 \sigma_{3w} + \beta_8 \sigma_{4w} + \epsilon_t$
 
     where:
     - $y_t$ = hospitalization rate 2 weeks ahead
