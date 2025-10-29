@@ -175,11 +175,9 @@ main <- function() {
       
       results_summary <- data.frame(
         Metric = c("RMSE_Training", "MAE_Training", "R_squared_Training", 
-                  "RMSE_2025", "MAE_2025", "R_squared_2025", 
-                  "N_Training", "N_2025"),
+                  "RMSE_2025", "MAE_2025", "R_squared_2025"),
         Value = c(metrics$rmse, metrics$mae, metrics$r_squared, 
-                  metrics_2025$rmse, metrics_2025$mae, metrics_2025$r_squared, 
-                  nrow(model_data_lagged), nrow(model_data_2025_lagged))
+                  metrics_2025$rmse, metrics_2025$mae, metrics_2025$r_squared)
       )
       
       write_csv(results_summary, 
