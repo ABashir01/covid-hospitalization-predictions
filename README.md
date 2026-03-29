@@ -1,4 +1,8 @@
-# COVID-19 Hospitalization Two Week Prediction in Georgia Using Wastewater Viral Activity 
+## **VIEW IT AT [THIS LINK](https://019d3b6b-c289-d47f-ae71-221a6d7c83ed.share.connect.posit.cloud/)**
+*Note: The host might have to spin up the app if it's been inactive which could take a few seconds*
+
+
+# COVID-19 Hospitalization Two Week Prediction in Georgia Using Wastewater Viral Activity
 
 Testing numerous models and their predictive power utilizing wastewater viral activity measurements in Georgia.
 
